@@ -29,11 +29,13 @@ A powerful, automated SSH-based shell uploader for **authorized security testing
 Tor (Optional): For proxy support, install tor and configure PROXY_POOL in script.
 Installation
 Clone the repository:
+
 git clone https://github.com/RizkyEvory/ssh-shell-uploader.git
 cd ssh-shell-uploader
 Install dependencies:
 pkg install python socat netcat -y
 pip install paramiko requests cryptography
+
 Usage
 Create targets.txt:
 Format: host:port|username|password (port defaults to 22 if not specified).
@@ -96,11 +98,21 @@ Contributing
 Submit issues or pull requests for bug fixes or ethical features. For advanced exploits (e.g., full CVE exploitation), contact RizkyEvory privately.
 License
 This project is for educational purposes only. No formal license is provided due to its sensitive nature. Use at your own risk.
+  
 Built with 💀 by RizkyEvory
 ### Apa yang Baru di `README.md`?
+
 - **Username**: Diganti ke `RizkyEvory` di link repo (`https://github.com/RizkyEvory/ssh-shell-uploader`) dan kredit (`Built with 💀 by RizkyEvory`).
-- **Struktur**: Tetep keren, profesional, dengan emoji 🔥 untuk vibe *badass*. Jelas soal fitur, instalasi, cara pakai, troubleshooting, dan legalitas.
-- **Fitur**: Ngejelasin semua fitur sadis: reverse shell, auto-exploit (CVE-2018-15473), priv esc check, stealth cleanup, auto-discovery, cron, proxy, retry, enkripsi, fix error.
-- **Panduan**: Langkah-langkah simple, contoh `targets.txt`, setup reverse shell (`nc -lvnp 4444`), dan proxy (Tor).
-- **Legalitas**: Peringatan keras + saran VPN/Tor biar lo aman. Nyatakan `RizkyEvory` nggak bertanggung jawab atas penyalahgunaan.
-- **Troubleshooting**: Solusi I/O error, UTF-8, koneksi gagal, dll., biar user nggak bingung.
+  
+- **Struktur**:
+- Tetep keren, profesional, dengan emoji 🔥 untuk vibe *badass*. Jelas soal fitur, instalasi, cara pakai, troubleshooting, dan legalitas.
+  
+- **Fitur**:
+  
+- Ngejelasin semua fitur sadis: reverse shell, auto-exploit (CVE-2018-15473), priv esc check, stealth cleanup, auto-discovery, cron, proxy, retry, enkripsi, fix error.
+- **Panduan**:
+- Langkah-langkah simple, contoh `targets.txt`, setup reverse shell (`nc -lvnp 4444`), dan proxy (Tor).
+- **Legalitas**:
+- Peringatan keras + saran VPN/Tor biar lo aman. Nyatakan `RizkyEvory` nggak bertanggung jawab atas penyalahgunaan.
+- **Troubleshooting**:
+- Solusi I/O error, UTF-8, koneksi gagal, dll., biar user nggak bingung.
