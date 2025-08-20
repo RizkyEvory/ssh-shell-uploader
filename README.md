@@ -29,14 +29,17 @@ A powerful, automated SSH-based shell uploader designed for **security testing**
 Netcat: For reverse shell listener (pkg install netcat -y).
 Tor (Optional): For proxy support, install tor and configure PROXY_POOL in script.
 Installation
-Clone the repository:
+
+- **Clone the repository**:
+  ```bash
 git clone https://github.com/RizkyEvory/ssh-shell-uploader.git
 cd ssh-shell-uploader
-Install dependencies:
+- **Install dependencies**:
+  ```bash
 pkg install python socat netcat -y
 pip install paramiko requests cryptography
   
-Usage
+- **Usage**
 Create targets.txt:
 Format: host:port|username|password (port defaults to 22 if not specified).
 Example:
